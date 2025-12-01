@@ -1,0 +1,45 @@
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Python cache / compiled files ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ---- Distribution / packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# ---- Unit test / coverage ----
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# ---- IDE / editor stuff ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# ---- OS-specific cruft ----
+.DS_Store
+Thumbs.db
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
